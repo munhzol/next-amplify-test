@@ -14,7 +14,9 @@ export async function getServerSideProps() {
 
   // Pass data to the page via props
 
-  const aPerson = people[randomIntFromInterval(0, 3)];
+  const max = people.length;
+
+  const aPerson = people[randomIntFromInterval(0, max)];
 
   return { props: { aPerson } };
 }

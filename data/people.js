@@ -23,4 +23,10 @@ export const people = [
     lastName: "Joile",
     age: 53,
   },
+  {
+    id: "5",
+    firstName: "Donald",
+    lastName: "Trump",
+    age: 73,
+  },
 ];

@@ -28,7 +28,7 @@ const Post = ({ aPerson }) => {
   return (
     <>
       <h1>This is a post no {id}</h1>
-      <img src="./chart.svg" alt="chart" width={24} height={24} />
+      <img src="../chart.svg" alt="chart" width={24} height={24} />
 
       <div>
         <ul>

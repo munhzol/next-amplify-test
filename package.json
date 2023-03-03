@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "aws-amplify": "^5.0.16",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "immer": "^9.0.19",
+    "nanoid": "^4.0.1",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
